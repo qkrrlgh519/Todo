@@ -1,0 +1,67 @@
+header{
+	height:100px;
+}
+h2{
+	display: inline-block;
+	transform: skew(30deg, -30deg);
+	position:relative;
+	top:25px;
+	color: #364e63;
+}
+button{
+	cursor: pointer;
+}
+#new-todo{
+	float:right;
+	height: 33px;
+    width: 170px;
+    margin-top: 33px;
+    margin-right: 12px;	
+    color: white;
+    background-color: #3bc4ff;
+}
+.todo-section{
+	float:right;
+	width:29%;
+	margin-right: 8px;
+}
+.todo-type{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: x-large;
+    height: 40px;
+	color: white;
+	background-color: #364e63;
+}
+.todo-content{
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+	height:70px;
+	margin-top:10px;
+	background-color: #b8d1e6;
+}
+.todo-title{
+	margin-top:5px;
+	margin-bottom: 15px;
+	font-size: larger;
+	font-weight: bolder
+}
+.todo-detail{
+    margin-top: 15px;
+    margin-bottom:5px;
+	font-size: smaller;
+	color: #7d7d7d;
+}
+.todo-button{
+	position: absolute;
+	width: 35px;
+	height: 25px;
+	right: 5px;
+	bottom: 10px;
+	font-size: small;
+}

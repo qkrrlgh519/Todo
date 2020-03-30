@@ -1,0 +1,94 @@
+h1{
+	text-align: center;
+    margin-top: 25px;
+}
+form{
+	position:absolute;
+	width:50%;
+	left:25%;
+	right:25%;
+}
+.div-title{
+	margin-bottom: 10px;
+    font-size: large;
+    color: gray;
+}
+input[type="text"]{
+	font-size: larger;
+	padding-left:1%;
+}
+#title-input{
+	width:98%;
+	height: 35px;
+}
+#name-input{
+	width:45%;
+	height: 35px;
+}
+.div-radio{
+	position: relative;
+}
+input[type=radio]{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip:rect(0,0,0,0);
+	border:0;
+}
+input[type=radio] + label{
+	display: inline-block;
+	position:relative;
+	padding-left:30px;
+	cursor:pointer;
+}
+input[type=radio] + label:before{
+	content: '';
+	position:absolute;
+	left:0;
+	width: 20px;
+	height: 20px;
+	background: white;
+	border: 1px solid gray;
+	border-radius: 100%;
+}
+input[type=radio]:checked + label:before{
+	background: #e9ecee;
+	border-color: #adb8c0;
+}
+input[type=radio]:checked + label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 12px;
+	height: 12px;
+	background: #99a1a7;
+	border-radius: 100%;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+}
+button{
+	position:absolute;
+	width:23%;
+	height: 40px;
+	font-size: unset;
+	cursor: pointer;
+}
+button[type='button']{
+	left:0%;
+	font-weight: 600;
+	text-decoration-line: underline;
+	background-color: white;
+}
+button[type='submit']{
+	right:25%;
+	color: white;
+    background-color: #3bc4ff;
+}
+button[type='reset']{
+	right:0%;
+	color: white;
+    background-color: #3bc4ff;
+}
